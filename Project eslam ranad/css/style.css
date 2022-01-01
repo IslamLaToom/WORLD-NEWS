@@ -1,0 +1,291 @@
+@font-face {
+    font-family: nato;
+    src: url('../font/NunitoSans-ExtraBold.ttf');
+}
+@font-face {
+    font-family: natos;
+    src: url('../font/NunitoSans-ExtraLight.ttf');
+}
+
+:root{
+    --main-color:#F6F8F9;
+    --sucond-color:rgb(24, 36, 138);
+    --par-color:  rgb(255, 123, 100);
+    --main-font: nato;
+    --small-pargraph: natos;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--main-color);
+    font-family:var(--main-font);
+}  
+  /* section one */
+.section-one{
+    margin: 0;
+    padding: 0;
+}
+.MIlogoImg{
+    width: 145px;
+    height: 80px;
+    padding-left: 35px;
+}
+.myBrand {
+    text-transform: uppercase;
+    color: #e70808 !important;
+    font-family: nato;
+    font-size: 3vh;
+}
+.nextIcon,.nextIcon-tw{
+    float: right;
+    width: 14px;
+}
+.nextIcon-tw{
+    margin-right: 26px;
+}
+.imgNav{
+    width: 65px;
+    height: 50px;
+    border-radius: 50%;
+}
+.img{
+    border-radius: 50%;
+}
+.logeee{
+    border-radius: 50%;
+}
+.headone{
+    padding: 10px;
+    margin: 5px;
+}
+.icon{
+    padding: 7px;
+    margin: 10px; 
+}
+.line{
+    color: rgb(189, 189, 189);
+}
+.red{
+    color: #be0707;
+    padding: 3px;
+}
+.head2{
+   padding: 3px;
+}
+.con2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.head3{
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.line{
+    width: 200px;
+    height: 1px;
+    background-color: #cacacc;
+}
+
+.texts{
+    font-size: 13px;
+    color: rgb(175, 173, 173);
+}
+.imgeee{
+    background-image: url(../img/naturl.png); 
+    height: 600px;
+}
+.texxt{
+    padding: 15%;
+    color: #eeeeee;
+    font-size: 15px;
+}
+.but{
+    width: 150px;
+    height: 50px;
+    background-color: #be0707 ;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    color: #dae0e5;
+}
+.logo{
+    color: rgb(255, 123, 100);
+}
+.hed-one{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: nato;
+
+    
+}
+/* section twe */
+.part-three{
+    margin-top: 13vh;
+    margin-bottom: 5vh;
+}
+.img-one{
+    background: url('../img/image-1.png');
+    height: 367px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 43px;
+}
+.text-top{
+    color: white;
+    font-size: 11px;
+    text-transform: capitalize;
+    padding-top: 2vh;
+    font-family: nato;
+}
+.bottom-parg{
+    margin-top: 180px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: nato;
+
+
+}
+.text-botom{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: nato;
+
+}
+
+.img-one span{
+    font-size: 12px;
+    color: #dae0e5;
+
+}
+.img-twe{
+    background: url('../img/Image-2.png');
+    height: 367px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+/* section three */
+.imgNatural{
+    width: 340px;
+    height: 173px;
+
+}
+.imgNaturally{
+    width: 340px;
+    height: 173px;
+
+}
+.parpTwe{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+    width: 100px;
+    height: 13px;
+    font-family: nato;
+
+}
+.und-line{
+    width: 178px;
+    height: 56px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+    font-family: nato;
+
+}
+.und-lineHiden{
+    width: 178px;
+    height: 56px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+    font-family: nato;
+}
+.time{
+    font-size: 12px;
+    color: #6e6e6e;
+    font-family: nato;
+    display: block;
+
+}
+.clk-Icon,.clk-Iconhidden{
+    margin-left: 10px;
+    margin-bottom: 13px;
+}
+.under-line{
+ text-decoration:underline;
+ color: #b4b4b8;
+ margin-left: 1px;
+ margin-bottom: 10px;
+}
+input{
+    border: none;
+}
+input{
+    background-color: rgb(31, 31, 31);
+    width: 150px;
+    height: 20px;
+}
+input:hover{
+    border: solid rgb(31, 31, 31);
+}
+.planIcon{
+    margin-left: 100px;
+    font-size: 14px;
+}
+.inpotItem{
+    border: 1px solid#eee;
+    border-radius: 10px;
+}
+/* footer */
+footer{
+    margin-top: 10vh;
+    color: white;
+    padding: 6vh;
+    background-color: rgb(31, 31, 31);
+    font-family: natos;
+
+}
+.list-foter{
+    display: flex;
+    flex-direction: row;
+}
+.sentance1,.sentance2,.sentance3{
+    width: 90%;
+    margin-left: 35px;
+    font-size: 11px;
+
+}
+.logoImg{
+    width: 145px;
+    height: 145px;
+}
+.footerItem{
+    padding-top: 60upx;
+    font-family: natos;
+
+}
+.contactWith{
+  font-size: 10px;
+  padding-left: 28vh;
+}
+.endIcon{
+    margin-left: 9px;
+}
+.imgCard{
+    width: 22rem;
+    margin-left: 1rem;
+}
+
+
